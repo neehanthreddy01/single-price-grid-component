@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 4.5% auto 4%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-container {
+    width: 700px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.13);
+}
+
+.community-component {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6% 6% 7%;
+}
+
+.community-component h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.community-component h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.community-component p {
+    color: hsl(218, 22%, 67%);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.subscription-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    padding: 12% 9.8%;
+    color: #fff;
+}
+
+.subscription h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.price h1 {
+    font-size: 2.3rem;
+}
+
+.price h3 {
+    font-size: 1.5rem;
+    margin-left: 24px;
+}
+
+.subscription h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.sign-up-btn {
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    margin-top: 34px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 7px;
+    border-color: hsl(71, 73%, 54%);
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.13);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.why-us {
+    background-color: hsl(179, 62%, 46%);
+    border-bottom-right-radius: 10px;
+    padding: 12% 9.8%;
+    color: #fff;
+}
+
+.why-us h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.why-us p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*** Footer section ***/
+
+.attribution {
+    text-align: center;
+    font-size: 13.8px;
+    padding-bottom: 1%;
+}
+
+@media (max-width: 850px) {
+    .container{
+        padding: 18% 4.5% 15%;
+    }
+
+    .price-container {
+        width: 85%;
+    }
+
+    .community-component {
+        padding: 8% 8% 9%;
+    }
+
+    .community-component h1 {
+        font-size: 1.3rem;
+        margin-bottom: 23px;
+    }
+
+    .community-component h2 {
+        font-size: 1rem;
+        margin-bottom: 14px;
+    }
+
+    .community-component p {
+        font-size: .85rem;
+    }
+
+    .subscription-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription {
+        border-bottom-left-radius: 0;
+        padding: 10% 9%;
+    }
+
+    .subscription h2 {
+        font-size: 1.17rem;
+    }
+
+    .price h1 {
+        font-size: 2.05rem;
+    }
+
+    .price h3 {
+        font-size: 1.1rem;
+    }
+
+    .subscription h3 {
+        font-size: 1rem;
+    }
+
+    .sign-up-btn {
+        height: 47px;
+        font-size: .9rem;
+    }
+
+    .why-us {
+        border-bottom-left-radius: 10px;
+        padding: 10% 9%;
+    }
+
+    .why-us h3 {
+        font-size: 1.17rem;
+    }
+
+    .why-us p {
+        font-size: .9rem;
+    }
+
+    .attribution {
+        font-size: 12.8px;
+        padding-bottom: 4%;
+    }
+}
